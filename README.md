@@ -37,7 +37,7 @@ The preprocess and pairwisePreprocess folders contain scripts related to creatin
  <br>
 The PPI_Datasets folder contains data and scripts related to individual datasets, such as parsing the protein pairs from the original documents and downloading the sequence and annotations necessary for the different experiments in the paper.  Additionally, each datasets folder will contain all features describing proteins and protein pairs in given dataset.  Unlike most code in this project, code found in this folder is only usable for the individual dataset of interest. <br>
  <br>
-The main folder has scripts related to running tests and loading the previously mentioned datasets.  Notably: <br>
+The main folder has scripts related to running tests and loading the previously mentioned datasets.  Notably: <br><br>
 &emsp;&emsp;	PreProcessDatasets takes a folder from the PPI_Datasets directory, and a set of desired sequence-based features, and computes per protein feature vectors, saving them in the format and with the filenames expected by the algorithms in methods by default. <br><br>
 &emsp;&emsp;	RunTrainTest contains code for running train/test splits, and saving the models and results to folders <br><br>
 &emsp;&emsp;	ProjectDataLoader contains functions that load the protein pairs from different datasets in the PPI_Datasets folder <br><br>
@@ -49,7 +49,7 @@ BenchmarkEvalPaper contains the master script for the project.  Run the Benchmar
 	 <br>
  <br>
 <h2>Datasets from Other Authors</h2>
-The following files are from other authors, used to compute datasets used in previous works (we do not own these files, credit goes to original authors, please cite them if comparing their datasets) <br>
+The following files are from other authors, used to compute datasets used in previous works (we do not own these files, credit goes to original authors, please cite them if comparing their datasets) <br><br>
 From DeepPPI: boosting prediction of protein–protein interactions with deep neural networks. <br>
 &emsp;&emsp;	PPI_Datasets/Du_Yeast/Supplementary S1.csv <br><br>
 From Multifaceted protein-protein interaction prediction based on Siamese residual RCNN (https://github.com/muhaochen/seq_ppi.git) <br>
@@ -77,7 +77,7 @@ From Prediction of protein–protein interactions based on PseAA composition and
 &emsp;&emsp;	PPI_Datasets/Liu_Fruit_Fly/Liu_Interactions.tsv  (listed as 1-s2.0-S0006291X09001119-mmc1.txt online) <br><br>
 From iPPI-PseAAC(CGR): Identify protein-protein interactions by incorporating chaos game representation into PseAAC <br>
 &emsp;&emsp;	PPI_Datasets/Martin_H_Pylori/Jia_2019.docx (converted to Jia_2019.txt) (listed as 1-s2.0-S0022519318304971-mmc2.docx online) <br><br>
-	 <br>
+	 <br><br>
 Additionally, we used, but do not include the following files due to spacing concerns in the repository (large size), but they would be needed to recompute some datasets from initially provided data <br>
 From Large-scale prediction of human protein-protein interactions from amino acid sequence based on latent topic features (http://www.csbio.sjtu.edu.cn/bioinf/LR_PPI/Data.htm)<br>
 &emsp;&emsp;	(all files were converted into txt files in our file directory before using in our code) <br>
