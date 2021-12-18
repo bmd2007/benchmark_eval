@@ -76,7 +76,7 @@ From iPPI-PseAAC(CGR): Identify protein-protein interactions by incorporating ch
 &emsp;&emsp;	PPI_Datasets/Martin_H_Pylori/Jia_2019.docx (converted to Jia_2019.txt) (listed as 1-s2.0-S0022519318304971-mmc2.docx online) <br><br>
 	 <br>
 Additionally, we used, but do not include the following files due to spacing concerns in the repository (large size), but they would be needed to recompute some datasets from initially provided data <br>
-From Large-scale prediction of human protein-protein interactions from amino acid sequence based on latent topic features <br>
+From Large-scale prediction of human protein-protein interactions from amino acid sequence based on latent topic features (http://www.csbio.sjtu.edu.cn/bioinf/LR_PPI/Data.htm)<br>
 &emsp;&emsp;	(all files were converted into txt files in our file directory before using in our code) <br>
 &emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-A.doc <br>
 &emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-B.doc <br>
