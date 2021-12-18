@@ -48,7 +48,7 @@ BenchmarkEvalPaper contains the master script for the project.  Run the Benchmar
  <br>
 The following files are from other authors, used to compute datasets used in previous works (we do not own these files, credit goes to original authors, please cite them if comparing their datasets) <br>
 From DeepPPI: boosting prediction of protein–protein interactions with deep neural networks. <br>
-&emsp;&emsp;	PPI_Datasets/Du_Yeast/Supplementary S1.csv <br>
+&emsp;&emsp;	PPI_Datasets/Du_Yeast/Supplementary S1.csv <br><br>
 From Multifaceted protein-protein interaction prediction based on Siamese residual RCNN (https://github.com/muhaochen/seq_ppi.git) <br>
 &emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Chen/protein.actions.tsv <br>
 &emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Chen/protein.dictionary.tsv <br>
@@ -58,22 +58,22 @@ From Multifaceted protein-protein interaction prediction based on Siamese residu
 &emsp;&emsp;	PPI_Datasets/Guo_MultiSpecies_Chen/CeleganDrosophilaEcoli.actions.filtered.40.tsv <br>
 &emsp;&emsp;	PPI_Datasets/Guo_MultiSpecies_Chen/CeleganDrosophilaEcoli.actions.tsv <br>
 &emsp;&emsp;	PPI_Datasets/Guo_MultiSpecies_Chen/CeleganDrosophilaEcoli.dictionary.filtered.tsv <br>
-&emsp;&emsp;	PPI_Datasets/Guo_MultiSpecies_Chen/CeleganDrosophilaEcoli.dictionary.tsv <br>
+&emsp;&emsp;	PPI_Datasets/Guo_MultiSpecies_Chen/CeleganDrosophilaEcoli.dictionary.tsv <br><br>
 From Predicting protein-protein interactions by fusing various Chou's pseudo components and using wavelet denoising approach (https://github.com/QUST-AIBBDRC/PPIs-WDSVM) <br>
 &emsp;&emsp;	(note: these are text versions of the data stored in matlab files on Tian's github page) <br>
 &emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Tian/n_protein_a.txt <br>
 &emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Tian/n_protein_b.txt <br>
 &emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Tian/p_protein_a.txt <br>
-&emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Tian/p_protein_b.txt <br>
+&emsp;&emsp;	PPI_Datasets/Guo_Data_Yeast_Tian/p_protein_b.txt <br><br>
 From iPPI-Esml: An ensemble classifier for identifying the interactions of proteins by incorporating their physicochemical properties and wavelet transforms into PseAAC <br>
-&emsp;&emsp;	PPI_Datasets/Jia_Data_Yeast/1-s2.0-S0022519315001733-mmc1.pdf (coverted into NegativePairs.txt and PositivePairs.tsv) <br>
+&emsp;&emsp;	PPI_Datasets/Jia_Data_Yeast/1-s2.0-S0022519315001733-mmc1.pdf (coverted into NegativePairs.txt and PositivePairs.tsv) <br><br>
 From Protein Interaction Network Reconstruction Through Ensemble Deep Learning With Attention Mechanism (https://github.com/liff33/EnAmDNN) <br>
 &emsp;&emsp;	PPI_Datasets/Li_AD/ad_train.txt (AD/train.txt on github) <br>
-&emsp;&emsp;	PPI_Datasets/Li_AD/ad_test.txt	(AD/test.txt on github) <br>
+&emsp;&emsp;	PPI_Datasets/Li_AD/ad_test.txt	(AD/test.txt on github) <br><br>
 From Prediction of protein–protein interactions based on PseAA composition and hybrid feature selection <br>
-&emsp;&emsp;	PPI_Datasets/Liu_Fruit_Fly/Liu_Interactions.tsv  (listed as 1-s2.0-S0006291X09001119-mmc1.txt online) <br>
+&emsp;&emsp;	PPI_Datasets/Liu_Fruit_Fly/Liu_Interactions.tsv  (listed as 1-s2.0-S0006291X09001119-mmc1.txt online) <br><br>
 From iPPI-PseAAC(CGR): Identify protein-protein interactions by incorporating chaos game representation into PseAAC <br>
-&emsp;&emsp;	PPI_Datasets/Martin_H_Pylori/Jia_2019.docx (converted to Jia_2019.txt) (listed as 1-s2.0-S0022519318304971-mmc2.docx online) <br>
+&emsp;&emsp;	PPI_Datasets/Martin_H_Pylori/Jia_2019.docx (converted to Jia_2019.txt) (listed as 1-s2.0-S0022519318304971-mmc2.docx online) <br><br>
 	 <br>
 Additionally, we used, but do not include the following files due to spacing concerns in the repository (large size), but they would be needed to recompute some datasets from initially provided data <br>
 From Large-scale prediction of human protein-protein interactions from amino acid sequence based on latent topic features <br>
@@ -82,7 +82,7 @@ From Large-scale prediction of human protein-protein interactions from amino aci
 &emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-B.doc <br>
 &emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-C.doc <br>
 &emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-D.doc <br>
-&emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-E.doc <br>
+&emsp;&emsp;	PPI_Datasets/Pan_Human_Data/Supp-E.doc <br><br>
 From Comparing two deep learning sequence-based models for protein-protein interaction prediction (https://gitlab.univ-nantes.fr/richoux-f/DeepPPI/tree/v1.tcbb) <br>
 &emsp;&emsp;	PPI_Datasets/Richoux_Human_Data/double-medium_1166_train_mirror.txt <br>
 &emsp;&emsp;	PPI_Datasets/Richoux_Human_Data/double-medium_1166_val_mirror.txt <br>
