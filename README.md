@@ -4,6 +4,7 @@ MIT Licensed Code <br>
 This repistory contains all the code necessary to recreate models and results from Paper: Benchmark Evaluation of Protein–Protein Interaction Prediction Algorithms, 
 as well as datasets produced by other authors that were compared in the paper. <br>
  <br>
+<h2>Software and Packages</h2>
 To run the code, you will need the following python packages and software <br>
 Packages: <br>
 &emsp;&emsp;	goatools  (for gene ontology computations) <br>
@@ -27,6 +28,7 @@ Software: <br>
  <br>
  <br>
  <br>
+<h2>Project Layout</h2>
 The code is split into the following folders: <br>
  <br>
 The Methods Folder contain scripts creating the machine learning models used to predict protein interactions <br>
@@ -46,6 +48,7 @@ BenchmarkEvalPaper contains the master script for the project.  Run the Benchmar
  <br>
 	 <br>
  <br>
+<h2>Datasets from Other Authors</h2>
 The following files are from other authors, used to compute datasets used in previous works (we do not own these files, credit goes to original authors, please cite them if comparing their datasets) <br>
 From DeepPPI: boosting prediction of protein–protein interactions with deep neural networks. <br>
 &emsp;&emsp;	PPI_Datasets/Du_Yeast/Supplementary S1.csv <br><br>
@@ -95,7 +98,8 @@ From Comparing two deep learning sequence-based models for protein-protein inter
 Additionally, the preprocessing folder contains some data from the AAIndex necessary to create certain sequence features, as well as Grantham, Schneider-Wrede, and blosum62 matrices, which also should be credited to their original authors. <br>
  <br>
  <br>
-Notes: <br>
+ 
+<h3>Notes</h3>
 There was a bug in our code when computing local descriptor, which was fixed prior to the final algorithm in our paper that utilized the given feature, but after 3 other models used it.  Thus, results may vary slightly on those models. <br>
 <br>
 We have seeded as much of our code as possible by default, but, some neural network models, particularly those running LSTMs or GRUs, were not seeded through cuDNN, which would have slowed down the models to gain recreatability.  Thus, some network models may slightly vary when being recreated. <br>
