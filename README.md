@@ -4,7 +4,8 @@ MIT Licensed Code <br>
 This repistory contains all the code necessary to recreate models and results from Paper: Benchmark Evaluation of Protein–Protein Interaction Prediction Algorithms, 
 as well as datasets produced by other authors that were compared in the paper. <br>
  <br>
-To run the code, you will need the following python packages and software Packages: <br>
+To run the code, you will need the following python packages and software <br>
+Packages: <br>
 &emsp;&emsp;	goatools  (for gene ontology computations) <br>
 &emsp;&emsp;	lightgbm<br>
 &emsp;&emsp;	matplotlib<br>
