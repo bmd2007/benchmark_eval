@@ -36,10 +36,10 @@ The preprocess and pairwisePreprocess folders contain scripts related to creatin
 The PPI_Datasets folder contains data and scripts related to individual datasets, such as parsing the protein pairs from the original documents and downloading the sequence and annotations necessary for the different experiments in the paper.  Additionally, each datasets folder will contain all features describing proteins and protein pairs in given dataset.  Unlike most code in this project, code found in this folder is only usable for the individual dataset of interest. <br>
  <br>
 The main folder has scripts related to running tests and loading the previously mentioned datasets.  Notably: <br>
-&emsp;&emsp;	PreProcessDatasets takes a folder from the PPI_Datasets directory, and a set of desired sequence-based features, and computes per protein feature vectors, saving them in the format and with the filenames expected by the algorithms in methods by default. <br>
-&emsp;&emsp;	RunTrainTest contains code for running train/test splits, and saving the models and results to folders <br>
-&emsp;&emsp;	ProjectDataLoader contains functions that load the protein pairs from different datasets in the PPI_Datasets folder <br>
-&emsp;&emsp;	PPIPUtils contains a variety of utility functions related to processing, downloading, and plotting data <br>
+&emsp;&emsp;	PreProcessDatasets takes a folder from the PPI_Datasets directory, and a set of desired sequence-based features, and computes per protein feature vectors, saving them in the format and with the filenames expected by the algorithms in methods by default. <br><br>
+&emsp;&emsp;	RunTrainTest contains code for running train/test splits, and saving the models and results to folders <br><br>
+&emsp;&emsp;	ProjectDataLoader contains functions that load the protein pairs from different datasets in the PPI_Datasets folder <br><br>
+&emsp;&emsp;	PPIPUtils contains a variety of utility functions related to processing, downloading, and plotting data <br><br>
  <br>
 BenchmarkEvalPaper contains the master script for the project.  Run the BenchmarkEvalPaper to download the necessary data for features, compute all features, train all models, and compute all results used in our paper.  By default, this script does not call the scripts we used to create to parse the data from other authors, or split the human data into groups, as we provided these files directly to ensure an exact comparison.  Additionally, running this file with its default settings will generate and save all of the more than 2,500 trained models used in our paper, which take up approximately 2 TB of disk space and can take 2 months to compute.  The number of models trained can be reduced by setting variables in the RunTest.py file to false. <br>
  <br>
