@@ -261,7 +261,7 @@ def genPairwiseHumanData():
 			fileLst.append(open(item+'test_'+name+'.tsv','w'))
 		return fileLst
 
-	fileLst = createFileLsts(folderLst,'GOSSC')
+	fileLst = createFileLsts(folderLst,'GOSS')
 
 
 	scorerLst = []
