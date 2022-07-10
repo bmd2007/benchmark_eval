@@ -15,7 +15,6 @@ import argparse
 
 
 def genAllFasta(geneIDFile = currentDir+'DataGeneIDs2021.tsv', entrezProteinOutputFile = currentDir + 'HumanUniprotEntrezProteinLst.tsv',ProteinMappingOutputFile=currentDir+'ProteinMapping.tsv',createFastas=True):
-	uniprotFastaLoc, uniprotFastaLoc2 = PPIPUtils.getUniprotFastaLocations()
 	allGenesLst = []
 	allUni = set()
 	idMapping ={}
@@ -32,6 +31,7 @@ def genAllFasta(geneIDFile = currentDir+'DataGeneIDs2021.tsv', entrezProteinOutp
 	f.close()
 
 	if createFastas:
+		uniprotFastaLoc, uniprotFastaLoc2 = PPIPUtils.getUniprotFastaLocations()
 		allFastas = PPIPUtils.parseUniprotFasta(uniprotFastaLoc, allUni)
 		allFastas2 = PPIPUtils.parseUniprotFasta(uniprotFastaLoc2, allUni)
 		allFastas.update(allFastas2)

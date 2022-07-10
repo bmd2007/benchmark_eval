@@ -36,7 +36,7 @@ class LiDeepModel(object):
 		self.seed = hyp.get('seed',1)
 		self.minLr = hyp.get('minLr',minLr)
 		self.layer1Lr = hyp.get('layer1Lr',layer1Lr)
-		self.layer2Lr = hyp.get('layer1Lr',layer2Lr)
+		self.layer2Lr = hyp.get('layer2Lr',layer2Lr)
 		self.k = hyp.get('k',k)
 		
 		#move network runner properties into hyperparams list if needed

@@ -20,7 +20,7 @@ def loadHumanRandom50(directory,augment = False,dirLst = False):
 		
 	if augment:
 		trainSets, testSets = augmentAll(trainSets,testSets)
-	featDir = 'PPI_Datasets/Human2021/'
+	featDir = currentDir+'PPI_Datasets/Human2021/'
 	if dirLst:
 		featDir = []
 		for i in range(0,5):
