@@ -18,7 +18,7 @@ from preprocess.MCDCTD import MCDCTD
 from preprocess.MLDCTD import MLDCTD
 from preprocess.EGBW import EGBW
 from preprocess.AutoCovariance import AutoCovariance
-from preprocess.BergerEncoding import BergerEncoding
+#from preprocess.BergerEncoding import BergerEncoding
 from preprocess.SkipGram import SkipGram
 from preprocess.OneHotEncoding import OneHotEncoding
 from preprocess.NumericEncoding import NumericEncoding
